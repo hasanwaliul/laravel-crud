@@ -12,8 +12,8 @@
       </div>
       <div class="form-group">
         <label for="nam">Product:</label>
-        <img src="images/{{$product->photo}}" alt="">
-        <input type="text" id="nam" class="form-control" placeholder="Enter product name" name="name" value="{{$product->photo}}">
+        <img src="/images/{{$product->photo}}" alt="" width="400px">
+       <!-- <input type="text" id="nam" class="form-control" placeholder="Enter product name" name="name" value="{{$product->photo}}"> -->
       </div><br>
       <div class="form-group">
         <label for="des">Product Description:</label>
